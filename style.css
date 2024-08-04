@@ -1,0 +1,121 @@
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0
+}
+.container_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 250px;
+}
+
+.logo img{
+    border-radius: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    border: none;
+}
+.link{
+    font-size: 18px;
+}
+.link ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.link ul li{
+    position: relative;
+    cursor: pointer;
+}
+.link ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn_1{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.color_yellow{
+    background-image: linear-gradient(to right, rgba(245, 247, 129, 0.438), rgba(247, 247, 55, 0.829),orange);
+}
+.container_2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.container_2 p{
+    margin: 0;
+}
+.container_2 p span{
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.container_2 p a{
+    color: black;
+    font-weight: 500;
+}
+.container_3{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title{
+    margin-left: 350px;
+    font-family: "Gupter", serif;
+    font-style: normal;
+    line-height: 90px;
+}
+
+.title h1{
+    margin-bottom: 50px;
+}
+.container_3 img{
+    width: 30%;
+}
+
+#para{
+    margin-left: 350px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.btn_2{
+    margin-left: 350px;
+    margin-top: 25px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 110px;
+}
+.container_4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_4 ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
